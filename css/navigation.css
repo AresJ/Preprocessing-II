@@ -1,0 +1,16 @@
+.upper-nav {
+  height: 40px;
+  display: flex;
+  flex-direction: row;
+  justify-content: flex-end;
+  align-content: center;
+  align-items: center;
+  margin-top: 10px;
+  margin-bottom: 10px;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
+.upper-nav div.upper-nav:nth-child(0) {
+  align-self: flex-start;
+  justify-content: flex-start;
+}
